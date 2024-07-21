@@ -17,6 +17,6 @@ Install dependencies: npm install or yarn install
 
 Running the Project Start the development server: npm run dev or yarn dev
 
-Visit http://localhost:5173.
+
 
 Building the Project Build for production: npm run build or yarn build

@@ -32,9 +32,9 @@ const Step1 = ({ nextStep, handleChange, formData }) => {
           </div>
         </div>
         <div className="p-2 w-1/2">
-          <div className="relative">
+          <div className="relative ">
             <label for="gender" className="leading-7 text-sm text-gray-600">Gender</label>
-            <select id="gender" name="gender" className="  w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+            <select id="gender" name="gender" className=" h-11  w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
                <option value="">Select Gender</option>
                 <option value="male">Male</option>
                 <option value="female">Female</option>
